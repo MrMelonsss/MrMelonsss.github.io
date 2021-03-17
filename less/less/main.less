@@ -1,0 +1,52 @@
+@red: red;
+.stackk {
+	height: 100px;
+	border: 5px solid @red;
+}
+.stackk2(@h: 50px) {
+	height: @h;
+	margin-top: 20px;
+	border: 5px solid @red;
+	p {
+		margin-top: 8px;
+	}
+}
+.row {
+	margin-bottom: 10px;
+}
+.stackk3 {
+	.stackk2();
+	border: 5px solid blue;
+}
+.stackk4 {
+	.stackk2();
+	border: 5px solid blue;
+}
+.stackk5 {
+	.stackk2();
+	border: 5px solid blue;
+}
+.stackk6 {
+	.stackk2();
+	border: 5px solid blue;
+}
+.stackk7 {
+	.stackk2();
+	border: 5px solid blue;
+}
+.stackk8 {
+	.stackk2(437px);
+	border: 5px solid blue;
+}
+.stackk9 {
+	.stackk2();
+	border: 5px solid blue;
+}
+.stackk10 {
+	.stackk2(42px);
+	border: 5px solid blue;
+}
+.stackk11 {
+	.stackk2(2px);
+	border: 5px solid blue;
+}
